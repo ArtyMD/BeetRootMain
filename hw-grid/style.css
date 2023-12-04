@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding-inline-start: 0;
+
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+header, main, footer {
+    display: grid;
+    grid-column: 1/5;
+}
+
+header {
+    grid-row: 1/2;
+}
+
+svg {
+    height: 100%;
+    width: 10%;
+    padding: 5px 20px;
+}
